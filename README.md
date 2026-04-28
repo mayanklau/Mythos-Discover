@@ -1,10 +1,10 @@
 # Mythos Discover
 
-Mythos Discover is a production-oriented frontend and reasoning-engine scaffold for answering the CISO question: **Are we impacted?**
+Mythos Discover answers the CISO question: **Are we impacted?**
 
-It connects external threat signals such as CVEs, CISA KEV, exploit rumors, package compromises, vendor incidents, and threat campaigns to internal context such as assets, software, package usage, vendors, identity connections, controls, owners, and tickets.
+It maps breaking CVEs, vendor incidents, exploit rumors, package compromises, and threat campaigns against internal environment context: assets, software versions, vendors, packages, owners, controls, tickets, and business impact.
 
-## Implemented Product Areas
+## Product Areas
 
 - CVE impact discovery
 - Vendor incident blast-radius analysis
@@ -12,9 +12,9 @@ It connects external threat signals such as CVEs, CISA KEV, exploit rumors, pack
 - Threat campaign relevance scoring
 - Exposure graph
 - Evidence-backed impact reports
-- Remediation workflow and ticketing surfaces
+- Remediation workflow surfaces
 - Executive brief generation
-- Integration architecture for scanners, cloud inventory, SBOM, SIEM, EDR, identity, and ticketing
+- Adapter boundaries for scanners, cloud inventory, SBOM, SIEM, EDR, identity, and ticketing
 
 ## Run Locally
 
@@ -28,28 +28,15 @@ npm run dev
 ```bash
 npm run typecheck
 npm run test
+npm run lint
 npm run build
+npm audit --audit-level=moderate
 ```
 
 ## Architecture
-
-The current build uses local seeded data through typed adapters. Production connectors should implement the same interfaces in `src/domain/adapters.ts`.
 
 ```text
 External signals -> adapters -> exposure graph -> impact engine -> reports/workflows -> UI
 ```
 
-## Deployment
-
-Build static assets with:
-
-```bash
-npm run build
-```
-
-Or build the included container:
-
-```bash
-docker build -t mythos-discover .
-docker run -p 8080:80 mythos-discover
-```
+Production connectors should implement the interfaces in `src/domain/adapters.ts` and route secrets through a backend service, not the browser.
