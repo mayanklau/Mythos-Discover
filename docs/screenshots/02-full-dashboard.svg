@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1600" viewBox="0 0 1280 1600">
+  <rect width="1280" height="1600" fill="#eef2f1"/>
+  <rect width="280" height="1600" fill="#0d1f22"/>
+  <text x="36" y="70" fill="#f8fafc" font-family="Arial" font-size="30" font-weight="700">Mythos Discover</text>
+  <text x="320" y="80" fill="#111827" font-family="Arial" font-size="44" font-weight="700">Are we impacted?</text>
+  <g fill="#ffffff" stroke="#d7dddf">
+    <rect x="320" y="130" width="205" height="120" rx="8"/>
+    <rect x="545" y="130" width="205" height="120" rx="8"/>
+    <rect x="770" y="130" width="205" height="120" rx="8"/>
+    <rect x="995" y="130" width="205" height="120" rx="8"/>
+    <rect x="320" y="280" width="420" height="470" rx="8"/>
+    <rect x="770" y="280" width="430" height="470" rx="8"/>
+    <rect x="320" y="790" width="270" height="260" rx="8"/>
+    <rect x="610" y="790" width="270" height="260" rx="8"/>
+    <rect x="900" y="790" width="300" height="260" rx="8"/>
+    <rect x="320" y="1090" width="170" height="150" rx="8"/>
+    <rect x="510" y="1090" width="170" height="150" rx="8"/>
+    <rect x="700" y="1090" width="170" height="150" rx="8"/>
+    <rect x="890" y="1090" width="170" height="150" rx="8"/>
+    <rect x="1080" y="1090" width="120" height="150" rx="8"/>
+    <rect x="320" y="1280" width="300" height="240" rx="8"/>
+    <rect x="640" y="1280" width="260" height="240" rx="8"/>
+    <rect x="920" y="1280" width="280" height="240" rx="8"/>
+  </g>
+  <g font-family="Arial" fill="#111827">
+    <text x="344" y="202" font-size="34" font-weight="700">4</text>
+    <text x="568" y="202" font-size="34" font-weight="700">3m 42s</text>
+    <text x="794" y="202" font-size="34" font-weight="700">7</text>
+    <text x="1018" y="202" font-size="34" font-weight="700">84/100</text>
+    <text x="344" y="326" font-size="24" font-weight="700">Live Impact Queue</text>
+    <text x="794" y="326" font-size="24" font-weight="700">Impact Decision</text>
+    <text x="344" y="840" font-size="22" font-weight="700">Status distribution</text>
+    <text x="634" y="840" font-size="22" font-weight="700">Risk by threat</text>
+    <text x="924" y="840" font-size="22" font-weight="700">Decision velocity</text>
+    <text x="344" y="1140" font-size="18" font-weight="700">CVE Impact Discovery</text>
+    <text x="534" y="1140" font-size="18" font-weight="700">Vendor Blast Radius</text>
+    <text x="724" y="1140" font-size="18" font-weight="700">OSS Impact</text>
+    <text x="914" y="1140" font-size="18" font-weight="700">Campaign Relevance</text>
+    <text x="1100" y="1140" font-size="18" font-weight="700">AI Preview</text>
+    <text x="344" y="1330" font-size="22" font-weight="700">Exposure graph</text>
+    <text x="664" y="1330" font-size="22" font-weight="700">Integration health</text>
+    <text x="944" y="1330" font-size="22" font-weight="700">Executive brief</text>
+  </g>
+  <g fill="#0f766e">
+    <rect x="344" y="900" width="52" height="90" rx="5"/>
+    <rect x="410" y="870" width="52" height="120" rx="5"/>
+    <rect x="476" y="930" width="52" height="60" rx="5"/>
+    <rect x="634" y="940" width="38" height="70" rx="5"/>
+    <rect x="690" y="900" width="38" height="110" rx="5"/>
+    <rect x="746" y="860" width="38" height="150" rx="5"/>
+    <rect x="802" y="920" width="38" height="90" rx="5"/>
+  </g>
+  <path d="M940 990 C980 900 1010 940 1040 870 C1080 780 1110 850 1160 800" fill="none" stroke="#2563eb" stroke-width="8"/>
+</svg>
