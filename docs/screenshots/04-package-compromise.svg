@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="820" viewBox="0 0 1280 820">
+  <rect width="1280" height="820" fill="#eef2f1"/>
+  <rect width="280" height="820" fill="#0d1f22"/>
+  <text x="36" y="70" fill="#f8fafc" font-family="Arial" font-size="30" font-weight="700">Mythos Discover</text>
+  <text x="320" y="80" fill="#111827" font-family="Arial" font-size="42" font-weight="700">Package Compromise Impact</text>
+  <rect x="320" y="130" width="420" height="610" rx="8" fill="#ffffff" stroke="#d7dddf"/>
+  <rect x="770" y="130" width="430" height="610" rx="8" fill="#ffffff" stroke="#d7dddf"/>
+  <text x="344" y="176" fill="#111827" font-family="Arial" font-size="24" font-weight="700">Live Impact Queue</text>
+  <rect x="344" y="210" width="372" height="88" rx="8" fill="#ffffff" stroke="#dbe3e4"/>
+  <text x="364" y="242" fill="#111827" font-family="Arial" font-size="16" font-weight="700">Northstar CRM token exposure</text>
+  <rect x="344" y="318" width="372" height="88" rx="8" fill="#f0fdfa" stroke="#0f766e"/>
+  <text x="364" y="350" fill="#111827" font-family="Arial" font-size="16" font-weight="700">Malicious npm package fast-json-pipe</text>
+  <text x="364" y="378" fill="#b91c1c" font-family="Arial" font-size="15" font-weight="700">Impacted · 81/100 · 92%</text>
+  <rect x="344" y="426" width="372" height="88" rx="8" fill="#ffffff" stroke="#dbe3e4"/>
+  <text x="364" y="458" fill="#111827" font-family="Arial" font-size="16" font-weight="700">Citrix ransomware campaign</text>
+  <text x="794" y="176" fill="#64748b" font-family="Arial" font-size="13" font-weight="700">IMPACT DECISION</text>
+  <text x="794" y="220" fill="#111827" font-family="Arial" font-size="36" font-weight="700">Impacted</text>
+  <text x="794" y="270" fill="#334155" font-family="Arial" font-size="18">fast-json-pipe 3.1.4 is present in a production build.</text>
+  <text x="794" y="298" fill="#334155" font-family="Arial" font-size="18">Rebuild, roll back, and rotate exposed secrets.</text>
+  <rect x="794" y="340" width="110" height="72" rx="8" fill="#f8fafc"/>
+  <text x="818" y="386" fill="#111827" font-family="Arial" font-size="26" font-weight="700">81</text>
+  <rect x="920" y="340" width="110" height="72" rx="8" fill="#f8fafc"/>
+  <text x="944" y="386" fill="#111827" font-family="Arial" font-size="26" font-weight="700">92%</text>
+  <rect x="1046" y="340" width="110" height="72" rx="8" fill="#f8fafc"/>
+  <text x="1070" y="386" fill="#111827" font-family="Arial" font-size="26" font-weight="700">1</text>
+  <text x="794" y="470" fill="#111827" font-family="Arial" font-size="20" font-weight="700">Evidence</text>
+  <text x="794" y="510" fill="#15803d" font-family="Arial" font-size="17">Package usage · Production deployment · Weaponized</text>
+  <rect x="794" y="560" width="330" height="58" rx="8" fill="#eff6ff"/>
+  <text x="818" y="596" fill="#1d4ed8" font-family="Arial" font-size="17" font-weight="700">SEC-4820 · Payments Platform · Open</text>
+</svg>
