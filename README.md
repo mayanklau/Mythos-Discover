@@ -16,6 +16,24 @@ It maps breaking CVEs, vendor incidents, exploit rumors, package compromises, an
 - Executive brief generation
 - Adapter boundaries for scanners, cloud inventory, SBOM, SIEM, EDR, identity, and ticketing
 
+## Product Screenshots
+
+### Command Center
+
+![Mythos Discover command center](docs/screenshots/01-command-center.svg)
+
+### Full Dashboard
+
+![Mythos Discover full dashboard](docs/screenshots/02-full-dashboard.svg)
+
+### Vendor Incident Impact
+
+![Vendor incident impact analysis](docs/screenshots/03-vendor-incident.svg)
+
+### Package Compromise Impact
+
+![Open-source package compromise impact analysis](docs/screenshots/04-package-compromise.svg)
+
 ## Run Locally
 
 ```bash
